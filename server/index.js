@@ -4,6 +4,6 @@ const app = express();
 
 const PORT = 3000;
 
-app.use()
+app.use();
 
-app.listen(PORT)
+app.listen(PORT);
