@@ -1,0 +1,39 @@
+{
+  "name": "bankoflemberg",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint client/** server/**",
+    "server:dev": "nodemon server/index.js",
+    "client:dev": ""
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubber-bird/BankOfLemberg.git"
+  },
+  "author": "rubber-bird",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubber-bird/BankOfLemberg/issues"
+  },
+  "homepage": "https://github.com/rubber-bird/BankOfLemberg#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jsdom": "^16.6.0",
+    "nodemon": "^2.0.9",
+    "pre-commit": "^1.2.2",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
